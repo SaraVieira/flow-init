@@ -6,60 +6,18 @@
 ## Install
 
 ```
-$ npm install flow-init
-```
-
-
-## Usage
-
-```js
-const flowInit = require('flow-init');
-
-flowInit('unicorns');
-//=> 'unicorns & rainbows'
-```
-
-
-## API
-
-### flowInit(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
-
-
-## CLI
-
-```
-$ npm install --global flow-init
+$ npm install -g flow-init
 ```
 
 ```
 $ flow-init --help
 
-  Usage
-    flow-init [input]
-
-  Options
-    --foo  Lorem ipsum [Default: false]
+	Usage
+    $ flow-init
 
   Examples
     $ flow-init
-    unicorns & rainbows
-    $ flow-init ponies
-    ponies & rainbows
+     > Will scaffhold flow for you ... Magic 🎉
 ```
 
 
